@@ -1,8 +1,10 @@
 # cucumber-parallel
+
+[![NPM](https://nodei.co/npm/cucumber-parallel.png?stars&downloads)](https://nodei.co/npm/cucumber-parallel/)
+
 ### Run Cucumber features in Parallel
 ###### Supports Cucumber@0.8.0 and higher
 
-[![NPM](https://nodei.co/npm/cucumber-parallel.png?stars&downloads)](https://nodei.co/npm/cucumber-parallel/)
 
 ### Install
 
@@ -10,7 +12,7 @@
 npm install cucumber-parallel
 ```
 
-Alternatively you can manually add it to your package.json file:
+Add dependency to your package.json
 
 ``` json
 {
