@@ -34,7 +34,7 @@ Because it runs features in parallel, it only supports JSON format. You can save
 Supports all the arguments as `cucumber`
 
 ``` bash
-$ node_modules/cucumber-js-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file --tags=@myTag 
+$ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file --tags=@myTag 
 ```
 
 
