@@ -28,7 +28,7 @@
     "parallel",
     "concurrent",
     "cucumber-js",
-    "cucumber-js-parallel"
+    "cucumber-parallel"
   ],
   "maintainers": [
     {
