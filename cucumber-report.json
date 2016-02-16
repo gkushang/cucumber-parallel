@@ -1,0 +1,63 @@
+[
+  {
+    "id": "Second-Parallel-Feature",
+    "name": "Second Parallel Feature",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/kugajjar/Documents/workspace/cucumber-js-parallel/features/parallel_2.feature",
+    "elements": [
+      {
+        "name": "given when a second parallel scenario",
+        "id": "Second-Parallel-Feature;given-when-a-second-parallel-scenario",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "a passing",
+            "line": 5,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 852083
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+,
+  {
+    "id": "First-Parallel-Feature",
+    "name": "First Parallel Feature",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/kugajjar/Documents/workspace/cucumber-js-parallel/features/parallel_1.feature",
+    "elements": [
+      {
+        "name": "given when a first parallel scenario",
+        "id": "First-Parallel-Feature;given-when-a-first-parallel-scenario",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "a passing",
+            "line": 5,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 991918
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]

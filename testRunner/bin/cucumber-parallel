@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var parallelizer = require('../../lib/parallelizer/parallelizer');
+parallelizer().invoke([
+    '-f',
+    'json:cucumber-report.json',
+    'features']
+);
