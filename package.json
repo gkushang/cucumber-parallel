@@ -13,7 +13,8 @@
     "commander": "^2.9.0",
     "debug": "^2.2.0",
     "events": "^1.1.0",
-    "fs-finder": "^1.8.1"
+    "fs-finder": "^1.8.1",
+    "gherkin": "^3.2.0"
   },
   "repository": {
     "type": "git",
