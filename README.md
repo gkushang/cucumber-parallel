@@ -9,17 +9,7 @@
 ### Install
 
 ``` bash
-npm install cucumber-parallel
-```
-
-Add dependency to your package.json
-
-``` json
-{
-  "devDependencies" : {
-    "cucumber-parallel": "latest"
-  }
-}
+npm install cucumber-parallel --save-dev
 ```
 
 #### How to run Features/Scenarios in Parallel?
