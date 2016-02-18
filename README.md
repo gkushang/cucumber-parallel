@@ -58,7 +58,7 @@ Supports all the arguments as `cucumber`
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file --tags=@myTag 
 ```
 
-### Upcoming Enhancments
+### Upcoming Enhancements
 - Run Features Parallel   : LIVE
 - Run Scenarios Parallel  : LIVE
 - Run Tags Parallel       : WIP
