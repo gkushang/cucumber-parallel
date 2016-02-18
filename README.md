@@ -52,7 +52,7 @@ Because it runs features/scenarios in parallel, it only supports JSON format. Yo
 
 ### Run
 
-Supports all the arguments as `cucumber`
+Supports all the arguments as [cucumber-js][1], except `--format` as explained above
 
 ``` bash
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file --tags=@myTag 
@@ -63,6 +63,8 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 - Run Scenarios Parallel  : LIVE
 - Run Tags Parallel       : WIP
 - Limit number of workers : PENDING
+
+[1]: https://github.com/cucumber/cucumber-js "CucumberJs"
 
 
 
