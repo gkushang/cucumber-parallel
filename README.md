@@ -24,13 +24,13 @@ parallelTypes: ['scenarios', 'features']
 To run `Scenarios` in Parallel, pass process.argv `--parallel scenarios`
 
 ``` bash
-$ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs --parallel scenarios -f json:path/to/file
+$ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs --parallel scenarios -f json:path/to/file.json
 ```
 
 It runs `Featues` in parallel by default, or by passing `--parallel features` process argument
 
 ``` bash
-$ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file
+$ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file.json
 ```
 
 #### Format
@@ -45,7 +45,7 @@ Because it runs features/scenarios in parallel, it only supports JSON format. Yo
 Supports all the arguments as [cucumber-js][1], except `--format` as explained above
 
 ``` bash
-$ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file --tags=@myTag 
+$ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file.json --tags=@myTag 
 ```
 
 ### Proposed Enhancements
