@@ -24,13 +24,15 @@ Add dependency to your package.json
 
 #### How to run Features/Scenarios in Parallel?
 
+Parallel Types: ['scenarios', 'features']
+
 To run `Scenarios` in Parallel, pass process.argv `--parallel scenarios`
 
 ``` bash
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs --parallel scenarios -f json:path/to/file
 ```
 
-It runs `Featues` in parallel by default
+It runs `Featues` in parallel by default, or by passing '--parallel features` process argument
 
 ``` bash
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file
