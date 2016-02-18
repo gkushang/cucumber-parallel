@@ -6,5 +6,7 @@ var parallelizer = require('../../lib/parallelizer/parallelizer');
 parallelizer().invoke([
     '-f',
     'json:cucumber-parallel-sample-report.json',
+    '-t',
+    '~@wip',
     'features']
 );
