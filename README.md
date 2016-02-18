@@ -23,7 +23,7 @@ Add dependency to your package.json
 ```
 
 #### How to run Features/Scenarios in Parallel?
-####### --parallel :parallelTypes:
+######* --parallel :parallelTypes:
 `parallelTypes: ['scenarios', 'features']`
 
 To run `Scenarios` in Parallel, pass process.argv `--parallel scenarios`
