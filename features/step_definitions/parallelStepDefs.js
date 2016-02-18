@@ -6,4 +6,8 @@ module.exports = function parallelStepDefs() {
         callback();
     });
 
+    this.Then(/^a failing/, function(callback) {
+        callback('I am failing :-(');
+    });
+
 };
