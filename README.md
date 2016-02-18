@@ -25,7 +25,7 @@ Add dependency to your package.json
 #### How to run Features/Scenarios in Parallel?
 ```bash
 
---parallel :parallelTypes:
+--parallel ::parallelTypes::
 
 parallelTypes: ['scenarios', 'features']
 
