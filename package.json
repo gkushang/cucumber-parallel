@@ -1,6 +1,6 @@
 {
   "name": "cucumber-parallel",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Run cucumber-js features in parallel",
   "author": {
     "name": "kushang gajjar",
