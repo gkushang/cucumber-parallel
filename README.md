@@ -51,7 +51,6 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 ### Proposed Enhancements
 - Run Features Parallel   : LIVE
 - Run Scenarios Parallel  : LIVE
-- Run Tags Parallel       : WIP
 - Limit number of workers : PENDING
 
 [1]: https://github.com/cucumber/cucumber-js "CucumberJs"
