@@ -15,6 +15,7 @@
 npm install cucumber-parallel --save-dev
 ```
 
+
 #### How to run Features/Scenarios in Parallel?
 
 ```bash
@@ -41,6 +42,7 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 ```
 
 
+
 #### Format
 Because it runs features/scenarios in parallel, it only supports JSON format. You can save the JSON output to file by passing the cucumber-format as,
 
@@ -49,6 +51,8 @@ Because it runs features/scenarios in parallel, it only supports JSON format. Yo
 -f json:path/to/file.json
 ```
 
+
+
 ### Run
 
 Supports all the arguments as [cucumber-js][1], except `--format` as explained above
@@ -56,6 +60,7 @@ Supports all the arguments as [cucumber-js][1], except `--format` as explained a
 ``` bash
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file.json --tags=@myTag 
 ```
+
 
 
 ### Proposed Enhancements
