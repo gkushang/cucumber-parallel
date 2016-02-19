@@ -18,6 +18,7 @@ npm install cucumber-parallel --save-dev
 
 #### How to run Features/Scenarios in Parallel?
 
+
 ```bash
 --parallel ::parallelTypes::
 
