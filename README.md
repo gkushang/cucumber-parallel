@@ -1,5 +1,8 @@
 # cucumber-parallel
 
+[![NPM](https://nodei.co/npm-dl/cucumber-parallel.png)](https://nodei.co/npm/cucumber-parallel/)
+
+
 [![NPM](https://nodei.co/npm/cucumber-parallel.png?stars&downloads)](https://nodei.co/npm/cucumber-parallel/)
 
 
