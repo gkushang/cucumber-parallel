@@ -64,7 +64,9 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 
 Cucumber-Parallel is integrated with Cucumber HTML reporting module [grunt-cucumberjs][2].
 
-Run Features or Scenarios in Parallel with Cucumber HTML Reports
+Run Features or Scenarios in Parallel and generate HTML Reports.
+
+Sample HTML Reports:
 
 1. [Bootstrap Theme Reports with Pie Chart][3]
 2. [Foundation Theme Reports][4]
