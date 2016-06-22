@@ -3,6 +3,8 @@ cucumber-parallel
 
 [![Build Status](https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop)](https://travis-ci.org/gkushang/cucumber-parallel)
 
+[![NPM](https://nodei.co/npm/cucumber-parallel.png?stars&downloads)](https://nodei.co/npm/cucumber-parallel/)
+
 ### Run Cucumber Features and Scenarios in Parallel
 
 ###### Supports Cucumber@0.8.0 and higher
