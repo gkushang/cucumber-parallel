@@ -1,33 +1,277 @@
 [
   {
-    "id": "Second-Parallel-Feature",
-    "name": "Second Parallel Feature",
-    "description": "",
-    "line": 2,
+    "id": "Cucumber-Parallel-Set-One",
+    "name": "Cucumber Parallel Set One",
+    "description": "\nIn order to have the quick regression with Cucumber\nFred, a cucumber user\nWants to run Cucumber Features in Parallel using cucumber-parallel module",
+    "line": 1,
     "keyword": "Feature",
-    "tags": [
-      {
-        "name": "@parallel",
-        "line": 1
-      }
-    ],
-    "uri": "/Users/kugajjar/Documents/workspace/cucumber-parallel/features/parallel_2.feature",
+    "uri": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/parallel_1.feature",
     "elements": [
       {
-        "name": "given when a second parallel scenario",
-        "id": "Second-Parallel-Feature;given-when-a-second-parallel-scenario",
-        "line": 4,
+        "name": "Fred runs features in parallel",
+        "id": "Cucumber-Parallel-Set-One;fred-runs-features-in-parallel",
+        "line": 8,
         "keyword": "Scenario",
         "description": "",
         "type": "scenario",
+        "tags": [
+          {
+            "name": "@happy",
+            "line": 7
+          }
+        ],
         "steps": [
           {
-            "name": "a passing",
-            "line": 6,
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1407823
+            },
+            "match": {}
+          },
+          {
+            "name": "Fred has multiple features written in cucumber",
+            "line": 9,
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 971333
+              "duration": 1700762
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "image/png",
+                "data": ""
+              }
+            ]
+          },
+          {
+            "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
+            "line": 10,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 298501
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "text/plain",
+                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw=="
+              }
+            ]
+          },
+          {
+            "name": "all the features should run in parallel",
+            "line": 11,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 123154
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Fred runs features in parallel with scenario outline",
+        "id": "Cucumber-Parallel-Set-One;fred-runs-features-in-parallel-with-scenario-outline",
+        "line": 30,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 22
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1388034
+            },
+            "match": {}
+          },
+          {
+            "name": "Fred has scenario outline with the \"1\"",
+            "line": 24,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 779774
+            },
+            "match": {}
+          },
+          {
+            "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
+            "line": 25,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 592033
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "text/plain",
+                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw=="
+              }
+            ]
+          },
+          {
+            "name": "all the features should run in parallel",
+            "line": 26,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 117541
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Fred runs features in parallel with data-tables",
+        "id": "Cucumber-Parallel-Set-One;fred-runs-features-in-parallel-with-data-tables",
+        "line": 14,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@dataTable",
+            "line": 13
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1391765
+            },
+            "match": {}
+          },
+          {
+            "name": "Fred has a step with below data table",
+            "line": 15,
+            "keyword": "Given ",
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "name"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "data-A"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "data-B"
+                ]
+              }
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 889349
+            },
+            "match": {}
+          },
+          {
+            "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
+            "line": 19,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 545367
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "text/plain",
+                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw=="
+              }
+            ]
+          },
+          {
+            "name": "all the features should run in parallel",
+            "line": 20,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 118938
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Fred runs features in parallel with scenario outline",
+        "id": "Cucumber-Parallel-Set-One;fred-runs-features-in-parallel-with-scenario-outline",
+        "line": 31,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 22
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1343419
+            },
+            "match": {}
+          },
+          {
+            "name": "Fred has scenario outline with the \"2\"",
+            "line": 24,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 896584
+            },
+            "match": {}
+          },
+          {
+            "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
+            "line": 25,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 575099
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "text/plain",
+                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw=="
+              }
+            ]
+          },
+          {
+            "name": "all the features should run in parallel",
+            "line": 26,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 120898
             },
             "match": {}
           }
@@ -36,75 +280,278 @@
     ]
   },
   {
-    "id": "First-Parallel-Feature",
-    "name": "First Parallel Feature",
-    "description": "",
-    "line": 2,
+    "id": "Cucumber-Parallel-Set-Two",
+    "name": "Cucumber Parallel Set Two",
+    "description": "\nIn order to have the quick regression with Cucumber\nFred, a cucumber user\nWants to run Cucumber Scenarios in Parallel using cucumber-parallel module",
+    "line": 1,
     "keyword": "Feature",
-    "tags": [
-      {
-        "name": "@parallel",
-        "line": 1
-      }
-    ],
-    "uri": "/Users/kugajjar/Documents/workspace/cucumber-parallel/features/parallel_1.feature",
+    "uri": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/parallel_2.feature",
     "elements": [
       {
-        "name": "given when a first parallel 1 scenario",
-        "id": "First-Parallel-Feature;given-when-a-first-parallel-1-scenario",
-        "line": 4,
-        "keyword": "Scenario",
-        "description": "",
-        "type": "scenario",
-        "steps": [
-          {
-            "name": "a passing",
-            "line": 6,
-            "keyword": "Given ",
-            "result": {
-              "status": "passed",
-              "duration": 864428
-            },
-            "match": {}
-          }
-        ]
-      },
-      {
-        "name": "given when a first parallel 2 scenario",
-        "id": "First-Parallel-Feature;given-when-a-first-parallel-2-scenario",
+        "name": "Fred runs scenarios in parallel",
+        "id": "Cucumber-Parallel-Set-Two;fred-runs-scenarios-in-parallel",
         "line": 8,
         "keyword": "Scenario",
         "description": "",
         "type": "scenario",
+        "tags": [
+          {
+            "name": "@happy",
+            "line": 7
+          }
+        ],
         "steps": [
           {
-            "name": "a passing",
-            "line": 10,
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1391181
+            },
+            "match": {}
+          },
+          {
+            "name": "Fred has multiple scenarios written in cucumber",
+            "line": 9,
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 440886
+              "duration": 1495127
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "image/png",
+                "data": ""
+              }
+            ]
+          },
+          {
+            "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
+            "line": 10,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 354594
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "text/plain",
+                "data": "LS1wYXJhbGxlbCBzY2VuYXJpb3M="
+              }
+            ]
+          },
+          {
+            "name": "all the scenarios should run in parallel",
+            "line": 11,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 115824
             },
             "match": {}
           }
         ]
       },
       {
-        "name": "given when a first parallel 3 scenario",
-        "id": "First-Parallel-Feature;given-when-a-first-parallel-3-scenario",
-        "line": 13,
+        "name": "Fred runs scenarios in parallel with data-tables",
+        "id": "Cucumber-Parallel-Set-Two;fred-runs-scenarios-in-parallel-with-data-tables",
+        "line": 14,
         "keyword": "Scenario",
         "description": "",
         "type": "scenario",
+        "tags": [
+          {
+            "name": "@dataTable",
+            "line": 13
+          }
+        ],
         "steps": [
           {
-            "name": "a failing",
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1393883
+            },
+            "match": {}
+          },
+          {
+            "name": "Fred has a step with below data table",
             "line": 15,
             "keyword": "Given ",
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "name"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "data-A"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "data-B"
+                ]
+              }
+            ],
             "result": {
-              "status": "failed",
-              "duration": 90427,
-              "error_message": "I am failing :-("
+              "status": "passed",
+              "duration": 938225
+            },
+            "match": {}
+          },
+          {
+            "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
+            "line": 19,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 547364
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "text/plain",
+                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw=="
+              }
+            ]
+          },
+          {
+            "name": "all the scenarios should run in parallel",
+            "line": 20,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 117882
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Fred runs scenarios in parallel with scenario outline",
+        "id": "Cucumber-Parallel-Set-Two;fred-runs-scenarios-in-parallel-with-scenario-outline",
+        "line": 31,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 22
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1440489
+            },
+            "match": {}
+          },
+          {
+            "name": "Fred has scenario outline with the \"2\"",
+            "line": 24,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 820376
+            },
+            "match": {}
+          },
+          {
+            "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
+            "line": 25,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 520754
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "text/plain",
+                "data": "LS1wYXJhbGxlbCBzY2VuYXJpb3M="
+              }
+            ]
+          },
+          {
+            "name": "all the scenarios should run in parallel",
+            "line": 26,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 104785
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Fred runs scenarios in parallel with scenario outline",
+        "id": "Cucumber-Parallel-Set-Two;fred-runs-scenarios-in-parallel-with-scenario-outline",
+        "line": 30,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 22
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1066281
+            },
+            "match": {}
+          },
+          {
+            "name": "Fred has scenario outline with the \"1\"",
+            "line": 24,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 557416
+            },
+            "match": {}
+          },
+          {
+            "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
+            "line": 25,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 335858
+            },
+            "match": {},
+            "embeddings": [
+              {
+                "mime_type": "text/plain",
+                "data": "LS1wYXJhbGxlbCBzY2VuYXJpb3M="
+              }
+            ]
+          },
+          {
+            "name": "all the scenarios should run in parallel",
+            "line": 26,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 96805
             },
             "match": {}
           }
