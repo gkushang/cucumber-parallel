@@ -1,4 +1,7 @@
-# cucumber-parallel
+cucumber-parallel
+=================
+
+[![Build Status](https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop)](https://travis-ci.org/gkushang/cucumber-parallel)
 
 [![NPM](https://nodei.co/npm/cucumber-parallel.png?stars&downloads)](https://nodei.co/npm/cucumber-parallel/)
 
