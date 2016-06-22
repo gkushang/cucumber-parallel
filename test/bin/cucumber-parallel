@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var parallelizer = require('../../lib/parallelizer/parallelizer');
+parallelizer().invoke(process.argv);

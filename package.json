@@ -1,13 +1,21 @@
 {
   "name": "cucumber-parallel",
-  "version": "0.1.4",
+  "version": "0.1.10",
   "description": "Run cucumber-js features in parallel",
   "author": {
     "name": "kushang gajjar",
     "email": "g.kushang@gmail.com"
   },
+  "scripts": {
+    "test": "npm run parallel-features && npm run assert-report && npm run parallel-scenarios && npm run assert-report",
+    "parallel-features": "node test/bin/cucumber-parallel test/features/ -f json:test/report/cucumber_report.json --parallel features",
+    "parallel-scenarios": "node test/bin/cucumber-parallel test/features/ -f json:test/report/cucumber_report.json --parallel scenarios",
+    "assert-report": "node test/features/assert/assertReport.js"
+  },
   "devDependencies": {
-    "cucumber": "^0.9.4"
+    "chai": "^1.10.0",
+    "chai-fs": "^0.1.0",
+    "cucumber": "^1.0.0"
   },
   "dependencies": {
     "bluebird": "^3.0.5",
@@ -17,7 +25,7 @@
     "events": "^1.1.0",
     "fs-finder": "^1.8.1",
     "gherkin": "^3.2.0",
-    "lodash.findIndex": "^4.5.0"
+    "lodash.findindex": "^4.2.0"
   },
   "repository": {
     "type": "git",
