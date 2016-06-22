@@ -5,9 +5,6 @@ cucumber-parallel
 
 ### Run Cucumber Features and Scenarios in Parallel
 
-###### Supports Cucumber@0.8.0 and higher
-
-
 
 ### Install
 
@@ -15,7 +12,6 @@ cucumber-parallel
 ``` bash
 npm install cucumber-parallel --save-dev
 ```
-
 
 #### How to run Features/Scenarios in Parallel?
 
@@ -71,6 +67,5 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 - Limit number of workers : PENDING
 
 [1]: https://github.com/cucumber/cucumber-js "CucumberJs"
-
 
 
