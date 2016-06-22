@@ -1,4 +1,7 @@
-# cucumber-parallel
+cucumber-parallel
+=================
+
+[![Build Status](https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop)](https://travis-ci.org/gkushang/cucumber-parallel)
 
 ### Run Cucumber Features and Scenarios in Parallel
 
