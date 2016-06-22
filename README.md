@@ -60,6 +60,16 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 ```
 
 
+### HTML Reports
+
+Cucumber-Parallel is integrated with Cucumber HTML reporting module [grunt-cucumberjs][2].
+
+Run Features or Scenarios in Parallel with Cucumber HTML Reports
+
+1. [Bootstrap Theme Reports with Pie Chart][3]
+2. [Foundation Theme Reports][4]
+3. [Simple Theme Reports][5]
+
 
 ### Proposed Enhancements
 - Run Features Parallel   : LIVE
@@ -67,5 +77,10 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 - Limit number of workers : PENDING
 
 [1]: https://github.com/cucumber/cucumber-js "CucumberJs"
+[2]: https://www.npmjs.com/package/grunt-cucumberjs "grunt-cucummberjs"
+[3]: http://htmlpreview.github.io/?https://github.com/gkushang/grunt-cucumberjs/blob/cucumber-reports/test/cucumber-reports/cucumber-report-bootstrap.html "Bootstrap Theme Reports"
+[4]: http://htmlpreview.github.io/?https://github.com/gkushang/grunt-cucumberjs/blob/cucumber-reports/test/cucumber-reports/cucumber-report-foundation.html "Foundation Theme Reports"
+[5]: http://htmlpreview.github.io/?https://github.com/gkushang/grunt-cucumberjs/blob/cucumber-reports/test/cucumber-reports/cucumber-report-simple.html "Simple Theme Reports"
+
 
 
