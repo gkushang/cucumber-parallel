@@ -1,4 +1,5 @@
 'use strict';
+var htmlReporter = require('cucumber-html-reporter');
 
 module.exports = function parallelStepDefs() {
     this.Before(function(scenario, callback) {
@@ -26,6 +27,16 @@ module.exports = function parallelStepDefs() {
 
     this.Given(/^Fred has a step with below data table$/, function (table, callback) {
         // Write code here that turns the phrase above into concrete actions
+        callback();
+    });
+
+    this.registerHandler('AfterFeatures', function(event, callback) {
+        htmlReporter.generate({
+            theme: 'bootstrap',
+            jsonFile: 'test/report/cucumber_report.json',
+            output: 'test/report/cucumber_report.html',
+            reportSuiteAsScenarios: true
+        });
         callback();
     });
 
