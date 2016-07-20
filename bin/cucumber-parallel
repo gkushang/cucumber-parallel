@@ -1,4 +1,3 @@
 #!/usr/bin/env node
-
 var parallelizer = require('../lib/parallelizer/parallelizer');
 parallelizer().invoke(process.argv);
