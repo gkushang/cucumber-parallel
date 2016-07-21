@@ -1,7 +1,7 @@
 cucumber-parallel
 =================
 
-[![Build Status](https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop)](https://travis-ci.org/gkushang/cucumber-parallel) [![v](https://img.shields.io/npm/v/cucumber-parallel<blue>.svg)](https://www.npmjs.com/package/cucumber-parallel)
+[![Build Status](https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop)](https://travis-ci.org/gkushang/cucumber-parallel) [![v](https://img.shields.io/npm/v/cucumber-parallel_blue.svg)](https://www.npmjs.com/package/cucumber-parallel)
 ### Run Cucumber Features and Scenarios in Parallel
 
 
