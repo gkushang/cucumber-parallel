@@ -62,9 +62,9 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 
 ### HTML Reports
 
-Cucumber-Parallel is integrated with Cucumber HTML reporting module [grunt-cucumberjs][2].
+Run Features or Scenarios in Parallel and generate HTML Reports with [cucumber-html-reporter][6]
 
-Run Features or Scenarios in Parallel and generate HTML Reports.
+Cucumber-Parallel is also integrated with HTML reporting Grunt Cucumber module [grunt-cucumberjs][2]
 
 Sample HTML Reports:
 
@@ -83,6 +83,7 @@ Sample HTML Reports:
 [3]: http://htmlpreview.github.io/?https://github.com/gkushang/grunt-cucumberjs/blob/cucumber-reports/test/cucumber-reports/cucumber-report-bootstrap.html "Bootstrap Theme Reports"
 [4]: http://htmlpreview.github.io/?https://github.com/gkushang/grunt-cucumberjs/blob/cucumber-reports/test/cucumber-reports/cucumber-report-foundation.html "Foundation Theme Reports"
 [5]: http://htmlpreview.github.io/?https://github.com/gkushang/grunt-cucumberjs/blob/cucumber-reports/test/cucumber-reports/cucumber-report-simple.html "Simple Theme Reports"
+[6]: https://www.npmjs.com/package/cucumber-html-reporter
 
 
 
