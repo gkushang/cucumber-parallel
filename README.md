@@ -78,6 +78,7 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/login.feature:10
 ```
 
 Above example will run login & signup features in parallel; two processes in parallel since two features are passed. Total 4 scenarios will run. You can run all 4 in parallel by passing as below,
+
 `/path/to/login.feature:10 /path/to/login.feature:20 /path/to/login.feature:25 path/to/signup.feature:18`
 
 
