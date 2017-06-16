@@ -9,7 +9,7 @@ defineSupportCode(function({Before, registerHandler, Given, Then, When}) {
     });
 
     Given(/^Fred has multiple (?:features|scenarios) written in cucumber$/, function (callback) {
-        this.attach(new Buffer('').toString('base64'), 'image/png');
+        this.attach('', 'image/png');
         callback();
     });
 
@@ -27,7 +27,6 @@ defineSupportCode(function({Before, registerHandler, Given, Then, When}) {
     });
 
     Given(/^Fred has a step with below data table$/, function (table, callback) {
-        // Write code here that turns the phrase above into concrete actions
         callback();
     });
 });
