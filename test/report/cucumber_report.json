@@ -10,21 +10,21 @@
       {
         "keyword": "Scenario",
         "line": 8,
-        "name": "Fred runs features in parallel",
+        "name": "(set-one) Fred runs features in parallel",
         "tags": [
           {
             "line": 7,
             "name": "@happy"
           }
         ],
-        "id": "cucumber-parallel-set-one;fred-runs-features-in-parallel",
+        "id": "cucumber-parallel-set-one;(set-one)-fred-runs-features-in-parallel",
         "steps": [
           {
             "arguments": [],
             "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 3
+              "duration": 4
             },
             "hidden": true,
             "match": {
@@ -56,7 +56,7 @@
             "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1
             },
             "line": 10,
             "embeddings": [
@@ -75,7 +75,7 @@
             "name": "all the features should run in parallel",
             "result": {
               "status": "passed",
-              "duration": 1
+              "duration": 0
             },
             "line": 11,
             "match": {
@@ -98,21 +98,21 @@
       {
         "keyword": "Scenario",
         "line": 8,
-        "name": "Fred runs scenarios in parallel",
+        "name": "(set-two) Fred runs scenarios in parallel",
         "tags": [
           {
             "line": 7,
             "name": "@happy"
           }
         ],
-        "id": "cucumber-parallel-set-two;fred-runs-scenarios-in-parallel",
+        "id": "cucumber-parallel-set-two;(set-two)-fred-runs-scenarios-in-parallel",
         "steps": [
           {
             "arguments": [],
             "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 3
+              "duration": 0
             },
             "hidden": true,
             "match": {
@@ -144,7 +144,7 @@
             "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 1
+              "duration": 0
             },
             "line": 10,
             "embeddings": [
@@ -175,14 +175,14 @@
       {
         "keyword": "Scenario",
         "line": 14,
-        "name": "Fred runs scenarios in parallel with data-tables",
+        "name": "(set-two) Fred runs scenarios in parallel with data-tables",
         "tags": [
           {
             "line": 13,
             "name": "@dataTable"
           }
         ],
-        "id": "cucumber-parallel-set-two;fred-runs-scenarios-in-parallel-with-data-tables",
+        "id": "cucumber-parallel-set-two;(set-two)-fred-runs-scenarios-in-parallel-with-data-tables",
         "steps": [
           {
             "arguments": [],
@@ -225,7 +225,7 @@
             "name": "Fred has a step with below data table",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1
             },
             "line": 15,
             "match": {
@@ -269,14 +269,14 @@
       {
         "keyword": "Scenario",
         "line": 30,
-        "name": "Fred runs scenarios in parallel with scenario outline",
+        "name": "(set-two) Fred runs scenarios in parallel with scenario outline 1",
         "tags": [
           {
             "line": 22,
             "name": "@scenarioOutline"
           }
         ],
-        "id": "cucumber-parallel-set-two;fred-runs-scenarios-in-parallel-with-scenario-outline",
+        "id": "cucumber-parallel-set-two;(set-two)-fred-runs-scenarios-in-parallel-with-scenario-outline-1",
         "steps": [
           {
             "arguments": [],
@@ -309,7 +309,7 @@
             "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 2
             },
             "line": 25,
             "embeddings": [
@@ -340,14 +340,14 @@
       {
         "keyword": "Scenario",
         "line": 31,
-        "name": "Fred runs scenarios in parallel with scenario outline",
+        "name": "(set-two) Fred runs scenarios in parallel with scenario outline 2",
         "tags": [
           {
             "line": 22,
             "name": "@scenarioOutline"
           }
         ],
-        "id": "cucumber-parallel-set-two;fred-runs-scenarios-in-parallel-with-scenario-outline",
+        "id": "cucumber-parallel-set-two;(set-two)-fred-runs-scenarios-in-parallel-with-scenario-outline-2",
         "steps": [
           {
             "arguments": [],
@@ -380,7 +380,7 @@
             "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 1
+              "duration": 0
             },
             "line": 25,
             "embeddings": [

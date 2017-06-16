@@ -7,7 +7,6 @@
     "email": "g.kushang@gmail.com"
   },
   "scripts": {
-
     "test": "DEBUG=* npm run clean && npm run parallel-scenarios",
     "posttest": "npm run generate-report && npm run assert-report",
     "parallel-features": "node test/bin/cucumber-parallel test/features/ -f json:test/report/cucumber_report.json --parallel features",
@@ -28,7 +27,7 @@
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "debug": "^2.2.0",
-    "events": "^1.1.0",
+    "events": "^1.1.1",
     "fs-finder": "^1.8.1",
     "gherkin": "^4.1.3",
     "lodash.findindex": "^4.2.0"
