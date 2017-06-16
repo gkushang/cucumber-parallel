@@ -23,7 +23,7 @@ module.exports = {
 
             expect(numberOfScenarios).to.be.equal(config.Scenarios.totalScenarios, 'Scenarios are missing in the report');
 
-            // verify screenshot is attached to the report
+            // verify screenshots is attached to the report
             expect(jsonOutputStringify).to.contain('mime_type":"image/png"', 'screenshot was not attached to report');
 
             // verify test data is attached to the report

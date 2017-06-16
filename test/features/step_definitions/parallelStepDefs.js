@@ -30,15 +30,4 @@ defineSupportCode(function({Before, registerHandler, Given, Then, When}) {
         // Write code here that turns the phrase above into concrete actions
         callback();
     });
-
-    registerHandler('AfterFeatures', function(features, callback) {
-        htmlReporter.generate({
-            theme: 'bootstrap',
-            jsonFile: 'test/report/cucumber_report.json',
-            output: 'test/report/cucumber_report.html',
-            reportSuiteAsScenarios: true
-        });
-        callback();
-    });
-
 });

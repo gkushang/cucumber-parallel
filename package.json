@@ -7,17 +7,22 @@
     "email": "g.kushang@gmail.com"
   },
   "scripts": {
-    "pretest": "npm run parallel-features & npm run assert-report",
-    "test": "npm run parallel-scenarios & npm run assert-report",
+
+    "pretest": "npm run clean & npm run parallel-features",
+    "test": "npm run clean & npm run parallel-scenarios",
+    "posttest": "npm run assert-report",
+
     "parallel-features": "node test/bin/cucumber-parallel test/features/ -f json:test/report/cucumber_report.json --parallel features",
     "parallel-scenarios": "node test/bin/cucumber-parallel test/features/ -f json:test/report/cucumber_report.json --parallel scenarios",
-    "assert-report": "node test/features/assert/assertReport.js"
+    "assert-report": "node test/assertReport.js",
+    "clean": "rm -rf test/report/*.html test/report/cucumber_report.json test/report/*.json test/report/screenshot",
+    "generate-report": "node test/report/generateReport.js"
   },
   "devDependencies": {
     "chai": "^4.0.2",
     "chai-fs": "^1.0.0",
     "cucumber": "^2.3.0",
-    "cucumber-html-reporter": "^0.5.0"
+    "cucumber-html-reporter": "^2.0.0"
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
