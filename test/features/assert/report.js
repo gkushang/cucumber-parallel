@@ -7,7 +7,7 @@ var config = require('../../config/config.json');
 
 module.exports = {
 
-    assert: function() {
+    assert: function () {
         var cucumberReportJson = 'cucumber_report.json';
         var jsonFile = 'test/report/' + cucumberReportJson;
 
@@ -17,13 +17,13 @@ module.exports = {
 
             //verify number of scenarios
             var numberOfScenarios = 0;
-            jsonOutput.forEach(function(feature) {
+            jsonOutput.forEach(function (feature) {
                 numberOfScenarios += feature.elements.length;
             });
 
             expect(numberOfScenarios).to.be.equal(config.Scenarios.totalScenarios, 'Scenarios are missing in the report');
 
-            // verify screenshot is attached to the report
+            // verify screenshots is attached to the report
             expect(jsonOutputStringify).to.contain('mime_type":"image/png"', 'screenshot was not attached to report');
 
             // verify test data is attached to the report

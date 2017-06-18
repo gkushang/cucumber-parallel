@@ -1,23 +1,34 @@
 [
   {
     "description": "  In order to have the quick regression with Cucumber\n  Fred, a cucumber user\n  Wants to run Cucumber Features in Parallel using cucumber-parallel module",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cucumber Parallel Set One",
+    "tags": [],
+    "uri": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/parallel_1.feature",
     "elements": [
       {
-        "id": "cucumber-parallel-set-one;fred-runs-features-in-parallel",
         "keyword": "Scenario",
         "line": 8,
-        "name": "Fred runs features in parallel",
+        "name": "(set-one) Fred runs features in parallel",
+        "tags": [
+          {
+            "line": 7,
+            "name": "@happy"
+          }
+        ],
+        "id": "cucumber-parallel-set-one;(set-one)-fred-runs-features-in-parallel",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Before ",
+            "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 2817972
+              "duration": 3
             },
             "hidden": true,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:4"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:5"
             }
           },
           {
@@ -26,7 +37,7 @@
             "name": "Fred has multiple features written in cucumber",
             "result": {
               "status": "passed",
-              "duration": 1762893
+              "duration": 1
             },
             "line": 9,
             "embeddings": [
@@ -36,7 +47,7 @@
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:9"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:10"
             }
           },
           {
@@ -45,17 +56,17 @@
             "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 433012
+              "duration": 1
             },
             "line": 10,
             "embeddings": [
               {
-                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw==",
+                "data": "--parallel features",
                 "mime_type": "text/plain"
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:14"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:15"
             }
           },
           {
@@ -64,38 +75,48 @@
             "name": "all the features should run in parallel",
             "result": {
               "status": "passed",
-              "duration": 236183
+              "duration": 0
             },
             "line": 11,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:19"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:20"
             }
           }
-        ],
-        "tags": [
-          {
-            "name": "@happy",
-            "line": 7
-          }
-        ],
-        "type": "scenario"
-      },
+        ]
+      }
+    ],
+    "id": "cucumber-parallel-set-one"
+  },
+  {
+    "description": "  In order to have the quick regression with Cucumber\n  Fred, a cucumber user\n  Wants to run Cucumber Features in Parallel using cucumber-parallel module",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cucumber Parallel Set One",
+    "tags": [],
+    "uri": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/parallel_1.feature",
+    "elements": [
       {
-        "id": "cucumber-parallel-set-one;fred-runs-features-in-parallel-with-scenario-outline",
         "keyword": "Scenario",
         "line": 30,
-        "name": "Fred runs features in parallel with scenario outline",
+        "name": "(set-one) Fred runs features in parallel with scenario outline 1",
+        "tags": [
+          {
+            "line": 22,
+            "name": "@scenarioOutline"
+          }
+        ],
+        "id": "cucumber-parallel-set-one;(set-one)-fred-runs-features-in-parallel-with-scenario-outline-1",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Before ",
+            "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 2718248
+              "duration": 6
             },
             "hidden": true,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:4"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:5"
             }
           },
           {
@@ -104,11 +125,11 @@
             "name": "Fred has scenario outline with the \"1\"",
             "result": {
               "status": "passed",
-              "duration": 1081727
+              "duration": 2
             },
             "line": 24,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:23"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:24"
             }
           },
           {
@@ -117,17 +138,17 @@
             "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 640085
+              "duration": 13
             },
             "line": 25,
             "embeddings": [
               {
-                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw==",
+                "data": "--parallel features",
                 "mime_type": "text/plain"
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:14"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:15"
             }
           },
           {
@@ -136,38 +157,48 @@
             "name": "all the features should run in parallel",
             "result": {
               "status": "passed",
-              "duration": 220242
+              "duration": 0
             },
             "line": 26,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:19"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:20"
             }
           }
-        ],
-        "tags": [
-          {
-            "name": "@scenarioOutline",
-            "line": 22
-          }
-        ],
-        "type": "scenario"
-      },
+        ]
+      }
+    ],
+    "id": "cucumber-parallel-set-one"
+  },
+  {
+    "description": "  In order to have the quick regression with Cucumber\n  Fred, a cucumber user\n  Wants to run Cucumber Features in Parallel using cucumber-parallel module",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cucumber Parallel Set One",
+    "tags": [],
+    "uri": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/parallel_1.feature",
+    "elements": [
       {
-        "id": "cucumber-parallel-set-one;fred-runs-features-in-parallel-with-data-tables",
         "keyword": "Scenario",
         "line": 14,
-        "name": "Fred runs features in parallel with data-tables",
+        "name": "(set-one) Fred runs features in parallel with data-tables",
+        "tags": [
+          {
+            "line": 13,
+            "name": "@dataTable"
+          }
+        ],
+        "id": "cucumber-parallel-set-one;(set-one)-fred-runs-features-in-parallel-with-data-tables",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Before ",
+            "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 2766842
+              "duration": 3
             },
             "hidden": true,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:4"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:5"
             }
           },
           {
@@ -199,11 +230,11 @@
             "name": "Fred has a step with below data table",
             "result": {
               "status": "passed",
-              "duration": 1195334
+              "duration": 1
             },
             "line": 15,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:27"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:28"
             }
           },
           {
@@ -212,17 +243,17 @@
             "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 661140
+              "duration": 6
             },
             "line": 19,
             "embeddings": [
               {
-                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw==",
+                "data": "--parallel features",
                 "mime_type": "text/plain"
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:14"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:15"
             }
           },
           {
@@ -231,38 +262,48 @@
             "name": "all the features should run in parallel",
             "result": {
               "status": "passed",
-              "duration": 174086
+              "duration": 0
             },
             "line": 20,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:19"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:20"
             }
           }
-        ],
-        "tags": [
-          {
-            "name": "@dataTable",
-            "line": 13
-          }
-        ],
-        "type": "scenario"
-      },
+        ]
+      }
+    ],
+    "id": "cucumber-parallel-set-one"
+  },
+  {
+    "description": "  In order to have the quick regression with Cucumber\n  Fred, a cucumber user\n  Wants to run Cucumber Features in Parallel using cucumber-parallel module",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cucumber Parallel Set One",
+    "tags": [],
+    "uri": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/parallel_1.feature",
+    "elements": [
       {
-        "id": "cucumber-parallel-set-one;fred-runs-features-in-parallel-with-scenario-outline",
         "keyword": "Scenario",
         "line": 31,
-        "name": "Fred runs features in parallel with scenario outline",
+        "name": "(set-one) Fred runs features in parallel with scenario outline 2",
+        "tags": [
+          {
+            "line": 22,
+            "name": "@scenarioOutline"
+          }
+        ],
+        "id": "cucumber-parallel-set-one;(set-one)-fred-runs-features-in-parallel-with-scenario-outline-2",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Before ",
+            "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 2949749
+              "duration": 3
             },
             "hidden": true,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:4"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:5"
             }
           },
           {
@@ -271,11 +312,11 @@
             "name": "Fred has scenario outline with the \"2\"",
             "result": {
               "status": "passed",
-              "duration": 1111903
+              "duration": 0
             },
             "line": 24,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:23"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:24"
             }
           },
           {
@@ -284,17 +325,17 @@
             "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 859144
+              "duration": 0
             },
             "line": 25,
             "embeddings": [
               {
-                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw==",
+                "data": "--parallel features",
                 "mime_type": "text/plain"
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:14"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:15"
             }
           },
           {
@@ -303,81 +344,103 @@
             "name": "all the features should run in parallel",
             "result": {
               "status": "passed",
-              "duration": 161526
+              "duration": 1
             },
             "line": 26,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:19"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:20"
             }
           }
-        ],
-        "tags": [
-          {
-            "name": "@scenarioOutline",
-            "line": 22
-          }
-        ],
-        "type": "scenario"
+        ]
       }
     ],
-    "id": "cucumber-parallel-set-one",
-    "keyword": "Feature",
-    "line": 1,
-    "name": "Cucumber Parallel Set One",
-    "tags": [],
-    "uri": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/parallel_1.feature"
+    "id": "cucumber-parallel-set-one"
   },
   {
     "description": "  In order to have the quick regression with Cucumber\n  Fred, a cucumber user\n  Wants to run Cucumber Scenarios in Parallel using cucumber-parallel module",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cucumber Parallel Set Two",
+    "tags": [],
+    "uri": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/parallel_2.feature",
     "elements": [
       {
-        "id": "cucumber-parallel-set-two;fred-runs-scenarios-in-parallel-with-scenario-outline",
         "keyword": "Scenario",
-        "line": 30,
-        "name": "Fred runs scenarios in parallel with scenario outline",
+        "line": 14,
+        "name": "(set-two) Fred runs scenarios in parallel with data-tables",
+        "tags": [
+          {
+            "line": 13,
+            "name": "@dataTable"
+          }
+        ],
+        "id": "cucumber-parallel-set-two;(set-two)-fred-runs-scenarios-in-parallel-with-data-tables",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Before ",
+            "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 2709607
+              "duration": 3
             },
             "hidden": true,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:4"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:5"
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "name"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1",
+                      "data-A"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "2",
+                      "data-B"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "Given ",
-            "name": "Fred has scenario outline with the \"1\"",
+            "name": "Fred has a step with below data table",
             "result": {
               "status": "passed",
-              "duration": 1076867
+              "duration": 1
             },
-            "line": 24,
+            "line": 15,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:23"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:28"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
+            "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 977618
+              "duration": 1
             },
-            "line": 25,
+            "line": 19,
             "embeddings": [
               {
-                "data": "LS1wYXJhbGxlbCBzY2VuYXJpb3M=",
+                "data": "--parallel features",
                 "mime_type": "text/plain"
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:14"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:15"
             }
           },
           {
@@ -386,110 +449,48 @@
             "name": "all the scenarios should run in parallel",
             "result": {
               "status": "passed",
-              "duration": 229518
+              "duration": 0
             },
-            "line": 26,
+            "line": 20,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:19"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:20"
             }
           }
-        ],
-        "tags": [
-          {
-            "name": "@scenarioOutline",
-            "line": 22
-          }
-        ],
-        "type": "scenario"
-      },
+        ]
+      }
+    ],
+    "id": "cucumber-parallel-set-two"
+  },
+  {
+    "description": "  In order to have the quick regression with Cucumber\n  Fred, a cucumber user\n  Wants to run Cucumber Scenarios in Parallel using cucumber-parallel module",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cucumber Parallel Set Two",
+    "tags": [],
+    "uri": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/parallel_2.feature",
+    "elements": [
       {
-        "id": "cucumber-parallel-set-two;fred-runs-scenarios-in-parallel-with-scenario-outline",
-        "keyword": "Scenario",
-        "line": 31,
-        "name": "Fred runs scenarios in parallel with scenario outline",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Before ",
-            "result": {
-              "status": "passed",
-              "duration": 3103050
-            },
-            "hidden": true,
-            "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:4"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "Fred has scenario outline with the \"2\"",
-            "result": {
-              "status": "passed",
-              "duration": 1894862
-            },
-            "line": 24,
-            "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
-            "result": {
-              "status": "passed",
-              "duration": 427956
-            },
-            "line": 25,
-            "embeddings": [
-              {
-                "data": "LS1wYXJhbGxlbCBzY2VuYXJpb3M=",
-                "mime_type": "text/plain"
-              }
-            ],
-            "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "all the scenarios should run in parallel",
-            "result": {
-              "status": "passed",
-              "duration": 222817
-            },
-            "line": 26,
-            "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:19"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@scenarioOutline",
-            "line": 22
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "cucumber-parallel-set-two;fred-runs-scenarios-in-parallel",
         "keyword": "Scenario",
         "line": 8,
-        "name": "Fred runs scenarios in parallel",
+        "name": "(set-two) Fred runs scenarios in parallel",
+        "tags": [
+          {
+            "line": 7,
+            "name": "@happy"
+          }
+        ],
+        "id": "cucumber-parallel-set-two;(set-two)-fred-runs-scenarios-in-parallel",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Before ",
+            "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 1830646
+              "duration": 3
             },
             "hidden": true,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:4"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:5"
             }
           },
           {
@@ -498,7 +499,7 @@
             "name": "Fred has multiple scenarios written in cucumber",
             "result": {
               "status": "passed",
-              "duration": 1656872
+              "duration": 1
             },
             "line": 9,
             "embeddings": [
@@ -508,7 +509,7 @@
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:9"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:10"
             }
           },
           {
@@ -517,17 +518,17 @@
             "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 427989
+              "duration": 1
             },
             "line": 10,
             "embeddings": [
               {
-                "data": "LS1wYXJhbGxlbCBzY2VuYXJpb3M=",
+                "data": "--parallel scenarios",
                 "mime_type": "text/plain"
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:14"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:15"
             }
           },
           {
@@ -536,93 +537,80 @@
             "name": "all the scenarios should run in parallel",
             "result": {
               "status": "passed",
-              "duration": 260582
+              "duration": 0
             },
             "line": 11,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:19"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:20"
             }
           }
-        ],
+        ]
+      }
+    ],
+    "id": "cucumber-parallel-set-two"
+  },
+  {
+    "description": "  In order to have the quick regression with Cucumber\n  Fred, a cucumber user\n  Wants to run Cucumber Scenarios in Parallel using cucumber-parallel module",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cucumber Parallel Set Two",
+    "tags": [],
+    "uri": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/parallel_2.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "(set-two) Fred runs scenarios in parallel with scenario outline 1",
         "tags": [
           {
-            "name": "@happy",
-            "line": 7
+            "line": 22,
+            "name": "@scenarioOutline"
           }
         ],
-        "type": "scenario"
-      },
-      {
-        "id": "cucumber-parallel-set-two;fred-runs-scenarios-in-parallel-with-data-tables",
-        "keyword": "Scenario",
-        "line": 14,
-        "name": "Fred runs scenarios in parallel with data-tables",
+        "id": "cucumber-parallel-set-two;(set-two)-fred-runs-scenarios-in-parallel-with-scenario-outline-1",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Before ",
+            "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 1834986
+              "duration": 1
             },
             "hidden": true,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:4"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:5"
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "id",
-                      "name"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "1",
-                      "data-A"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "2",
-                      "data-B"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "Given ",
-            "name": "Fred has a step with below data table",
+            "name": "Fred has scenario outline with the \"1\"",
             "result": {
               "status": "passed",
-              "duration": 666726
+              "duration": 1
             },
-            "line": 15,
+            "line": 24,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:27"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:24"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "he runs the features in parallel with \"--parallel features\" using cucumber-parallel module",
+            "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
             "result": {
               "status": "passed",
-              "duration": 379275
+              "duration": 1
             },
-            "line": 19,
+            "line": 25,
             "embeddings": [
               {
-                "data": "LS1wYXJhbGxlbCBmZWF0dXJlcw==",
+                "data": "--parallel scenarios",
                 "mime_type": "text/plain"
               }
             ],
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:14"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:15"
             }
           },
           {
@@ -631,28 +619,98 @@
             "name": "all the scenarios should run in parallel",
             "result": {
               "status": "passed",
-              "duration": 137954
+              "duration": 0
             },
-            "line": 20,
+            "line": 26,
             "match": {
-              "location": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:19"
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:20"
             }
           }
-        ],
-        "tags": [
-          {
-            "name": "@dataTable",
-            "line": 13
-          }
-        ],
-        "type": "scenario"
+        ]
       }
     ],
-    "id": "cucumber-parallel-set-two",
+    "id": "cucumber-parallel-set-two"
+  },
+  {
+    "description": "  In order to have the quick regression with Cucumber\n  Fred, a cucumber user\n  Wants to run Cucumber Scenarios in Parallel using cucumber-parallel module",
     "keyword": "Feature",
     "line": 1,
     "name": "Cucumber Parallel Set Two",
     "tags": [],
-    "uri": "/Users/kugajjar/Documents/workspace/cucumber-parallel/test/features/parallel_2.feature"
+    "uri": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/parallel_2.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "(set-two) Fred runs scenarios in parallel with scenario outline 2",
+        "tags": [
+          {
+            "line": 22,
+            "name": "@scenarioOutline"
+          }
+        ],
+        "id": "cucumber-parallel-set-two;(set-two)-fred-runs-scenarios-in-parallel-with-scenario-outline-2",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Fred has scenario outline with the \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he runs the features in parallel with \"--parallel scenarios\" using cucumber-parallel module",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 25,
+            "embeddings": [
+              {
+                "data": "--parallel scenarios",
+                "mime_type": "text/plain"
+              }
+            ],
+            "match": {
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "all the scenarios should run in parallel",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/payal/Documents/Kushang/workspace/others/cucumber-parallel/test/features/step_definitions/parallelStepDefs.js:20"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "cucumber-parallel-set-two"
   }
 ]
