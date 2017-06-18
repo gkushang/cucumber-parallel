@@ -7,7 +7,7 @@
     "email": "g.kushang@gmail.com"
   },
   "scripts": {
-    "test": "DEBUG=* npm run clean && npm run parallel-scenarios",
+    "test": "DEBUG=* npm run clean && npm run parallel-features",
     "posttest": "npm run generate-report && npm run assert-report",
     "parallel-features": "node test/bin/cucumber-parallel test/features/ -f json:test/report/cucumber_report.json --parallel features",
     "parallel-scenarios": "node test/bin/cucumber-parallel test/features/ -f json:test/report/cucumber_report.json --parallel scenarios",
