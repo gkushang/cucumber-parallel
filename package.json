@@ -19,7 +19,6 @@
   "devDependencies": {
     "chai": "^4.0.2",
     "chai-fs": "^1.0.0",
-    "cucumber": "^2.3.0",
     "cucumber-html-reporter": "^2.0.0"
   },
   "dependencies": {
@@ -27,6 +26,7 @@
     "bluebird": "^3.5.0",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
+    "cucumber": "^2.3.0",
     "debug": "^2.2.0",
     "events": "^1.1.1",
     "fs-finder": "^1.8.1",
