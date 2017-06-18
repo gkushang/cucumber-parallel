@@ -7,7 +7,7 @@ var config = require('../../config/config.json');
 
 module.exports = {
 
-    assert: function() {
+    assert: function () {
         var cucumberReportJson = 'cucumber_report.json';
         var jsonFile = 'test/report/' + cucumberReportJson;
 
@@ -17,7 +17,7 @@ module.exports = {
 
             //verify number of scenarios
             var numberOfScenarios = 0;
-            jsonOutput.forEach(function(feature) {
+            jsonOutput.forEach(function (feature) {
                 numberOfScenarios += feature.elements.length;
             });
 

@@ -2,8 +2,8 @@
 var htmlReporter = require('cucumber-html-reporter');
 var {defineSupportCode} = require('cucumber');
 
-defineSupportCode(function({Before, registerHandler, Given, Then, When}) {
-    Before(function(scenario, callback) {
+defineSupportCode(function ({Before, registerHandler, Given, Then, When}) {
+    Before(function (scenario, callback) {
         this.scenario = scenario;
         callback();
     });
