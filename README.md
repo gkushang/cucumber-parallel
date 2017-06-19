@@ -1,7 +1,8 @@
 cucumber-parallel
 =================
 
-[![Build Status](https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop)](https://travis-ci.org/gkushang/cucumber-parallel)
+[![Build Status][travis-shield]][travis-link] [![npm][npm-shield]][npm-link] [![Dependency Status][depedency-shield]][depedency-link] [![License][license-shield]][license-link]
+
 
 ### Run Cucumber Features and Scenarios in Parallel
 
@@ -12,6 +13,11 @@ cucumber-parallel
 ``` bash
 npm install cucumber-parallel --save-dev
 ```
+***Notes:*** 
+
+* Latest version supports Cucumber 2
+* Install `cucumber-parallel@1.0.0` for cucumber version `< Cucumber@2`
+
 
 #### How to run Features/Scenarios in Parallel?
 
@@ -94,11 +100,10 @@ Sample HTML Reports:
 2. [Foundation Theme Reports][4]
 3. [Simple Theme Reports][5]
 
+## Changelog 
 
-### Proposed Enhancements
-- Run Features Parallel   : LIVE
-- Run Scenarios Parallel  : LIVE
-- Limit number of workers : PENDING
+[changelog][changelog]
+
 
 [1]: https://github.com/cucumber/cucumber-js "CucumberJs"
 [2]: https://www.npmjs.com/package/grunt-cucumberjs "grunt-cucummberjs"
@@ -106,6 +111,23 @@ Sample HTML Reports:
 [4]: http://htmlpreview.github.io/?https://github.com/gkushang/cucumber-html-reporter/blob/develop/samples/html_reports/cucumber_report_foundation.html "Foundation Theme Reports"
 [5]: http://htmlpreview.github.io/?https://github.com/gkushang/cucumber-html-reporter/blob/develop/samples/html_reports/cucumber_report_simple.html "Simple Theme Reports"
 [6]: https://www.npmjs.com/package/cucumber-html-reporter
+
+[changelog]: https://github.com/gkushang/cucumber-parallel/blob/develop/CHANGELOG.md
+
+[travis-shield]: https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop
+[travis-link]: https://travis-ci.org/gkushang/cucumber-parallel
+
+[npm-shield]: https://img.shields.io/npm/v/cucumber-parallel.svg
+[npm-link]: https://www.npmjs.com/package/cucumber-parallel
+
+[depedency-shield]: https://david-dm.org/gkushang/cucumber-parallel.svg
+[depedency-link]: https://david-dm.org/gkushang/cucumber-parallel
+
+[license-shield]: https://img.shields.io/github/license/mashape/apistatus.svg
+[license-link]: https://github.com/gkushang/cucumber-parallel/
+
+
+
 
 
 
