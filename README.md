@@ -5,7 +5,8 @@ Cucumber Parallel
 [![Build Status][travis-shield]][travis-link] [![npm][npm-shield]][npm-link] [![Dependency Status][depedency-shield]][depedency-link] [![License][license-shield]][license-link]
 
 > For HTML Reporting, head over to [cucumber-html-reporter][cucumber-html-reporter]
-### Install
+
+## Install
 
 
 ``` bash
@@ -17,7 +18,7 @@ npm install cucumber-parallel --save-dev
 * Install `cucumber-parallel@1.0.0` for cucumber version `< Cucumber@2`
 
 
-#### Very simple to use
+## Very simple to use
 
 
 ```bash
@@ -45,7 +46,7 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 
 
 
-#### Format
+## Format
 Because it runs features/scenarios in parallel, it only supports JSON format. You can save the JSON output to file by passing the cucumber-format as,
 
 
@@ -55,7 +56,7 @@ Because it runs features/scenarios in parallel, it only supports JSON format. Yo
 
 
 
-### Run
+## Run
 
 Supports all the arguments as [cucumber-js][1], except `--format` as explained above
 
@@ -63,7 +64,7 @@ Supports all the arguments as [cucumber-js][1], except `--format` as explained a
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file.json --tags=@myTag 
 ```
 
-### Re-run failed scenarios in parallel
+## Re-run failed scenarios in parallel
 
 ```bash
 
