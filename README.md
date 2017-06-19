@@ -1,12 +1,10 @@
-cucumber-parallel
+Cucumber Parallel
 =================
+***Run Cucumber Features and Scenarios in Parallel***
 
 [![Build Status][travis-shield]][travis-link] [![npm][npm-shield]][npm-link] [![Dependency Status][depedency-shield]][depedency-link] [![License][license-shield]][license-link]
 
-
-### Run Cucumber Features and Scenarios in Parallel
-
-
+> For HTML Reporting, head over to [cucumber-html-reporter][cucumber-html-reporter]
 ### Install
 
 
@@ -19,7 +17,7 @@ npm install cucumber-parallel --save-dev
 * Install `cucumber-parallel@1.0.0` for cucumber version `< Cucumber@2`
 
 
-#### How to run Features/Scenarios in Parallel?
+#### Very simple to use
 
 
 ```bash
@@ -90,7 +88,7 @@ Above example will run login & signup features in parallel; two processes in par
 
 ### HTML Reports
 
-Run Features or Scenarios in Parallel and generate HTML Reports with [cucumber-html-reporter][6]
+Run Features or Scenarios in Parallel and generate HTML Reports with [cucumber-html-reporter][cucumber-html-reporter]
 
 Cucumber-Parallel is also integrated with HTML reporting Grunt Cucumber module [grunt-cucumberjs][2]
 
@@ -110,7 +108,8 @@ Sample HTML Reports:
 [3]: http://htmlpreview.github.io/?https://github.com/gkushang/cucumber-html-reporter/blob/develop/samples/html_reports/cucumber_report_bootstrap.html "Bootstrap Theme Reports"
 [4]: http://htmlpreview.github.io/?https://github.com/gkushang/cucumber-html-reporter/blob/develop/samples/html_reports/cucumber_report_foundation.html "Foundation Theme Reports"
 [5]: http://htmlpreview.github.io/?https://github.com/gkushang/cucumber-html-reporter/blob/develop/samples/html_reports/cucumber_report_simple.html "Simple Theme Reports"
-[6]: https://www.npmjs.com/package/cucumber-html-reporter
+
+[cucumber-html-reporter]: https://www.npmjs.com/package/cucumber-html-reporter
 
 [changelog]: https://github.com/gkushang/cucumber-parallel/blob/develop/CHANGELOG.md
 
