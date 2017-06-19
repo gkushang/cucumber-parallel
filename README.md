@@ -1,19 +1,24 @@
-cucumber-parallel
+Cucumber Parallel
 =================
+***Run Cucumber Features and Scenarios in Parallel***
 
-[![Build Status](https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop)](https://travis-ci.org/gkushang/cucumber-parallel)
+[![Build Status][travis-shield]][travis-link] [![npm][npm-shield]][npm-link] [![Dependency Status][depedency-shield]][depedency-link] [![License][license-shield]][license-link]
 
-### Run Cucumber Features and Scenarios in Parallel
+> For HTML Reporting, head over to [cucumber-html-reporter][cucumber-html-reporter]
 
-
-### Install
+## Install
 
 
 ``` bash
 npm install cucumber-parallel --save-dev
 ```
+***Notes:*** 
 
-#### How to run Features/Scenarios in Parallel?
+* Latest version supports Cucumber 2
+* Install `cucumber-parallel@1.0.0` for cucumber version `< Cucumber@2`
+
+
+## Very simple to use
 
 
 ```bash
@@ -40,18 +45,7 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 ```
 
 
-
-#### Format
-Because it runs features/scenarios in parallel, it only supports JSON format. You can save the JSON output to file by passing the cucumber-format as,
-
-
-```bash
--f json:path/to/file.json
-```
-
-
-
-### Run
+## Run
 
 Supports all the arguments as [cucumber-js][1], except `--format` as explained above
 
@@ -59,7 +53,7 @@ Supports all the arguments as [cucumber-js][1], except `--format` as explained a
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file.json --tags=@myTag 
 ```
 
-### Re-run failed scenarios in parallel
+#### Re-run failed scenarios in parallel
 
 ```bash
 
@@ -77,6 +71,17 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/login.feature:10
 
 ```
 
+
+#### Format
+Because it runs features/scenarios in parallel, it only supports JSON format. You can save the JSON output to file by passing the cucumber-format as,
+
+
+```bash
+-f json:path/to/file.json
+```
+
+
+
 Above example will run login & signup features in parallel; two processes in parallel since two features are passed. Total 4 scenarios will run. You can run all 4 in parallel by passing as below,
 
 `/path/to/login.feature:10 /path/to/login.feature:20 /path/to/login.feature:25 path/to/signup.feature:18`
@@ -84,7 +89,7 @@ Above example will run login & signup features in parallel; two processes in par
 
 ### HTML Reports
 
-Run Features or Scenarios in Parallel and generate HTML Reports with [cucumber-html-reporter][6]
+Run Features or Scenarios in Parallel and generate HTML Reports with [cucumber-html-reporter][cucumber-html-reporter]
 
 Cucumber-Parallel is also integrated with HTML reporting Grunt Cucumber module [grunt-cucumberjs][2]
 
@@ -94,18 +99,35 @@ Sample HTML Reports:
 2. [Foundation Theme Reports][4]
 3. [Simple Theme Reports][5]
 
+## Changelog 
 
-### Proposed Enhancements
-- Run Features Parallel   : LIVE
-- Run Scenarios Parallel  : LIVE
-- Limit number of workers : PENDING
+[changelog][changelog]
+
 
 [1]: https://github.com/cucumber/cucumber-js "CucumberJs"
 [2]: https://www.npmjs.com/package/grunt-cucumberjs "grunt-cucummberjs"
 [3]: http://htmlpreview.github.io/?https://github.com/gkushang/cucumber-html-reporter/blob/develop/samples/html_reports/cucumber_report_bootstrap.html "Bootstrap Theme Reports"
 [4]: http://htmlpreview.github.io/?https://github.com/gkushang/cucumber-html-reporter/blob/develop/samples/html_reports/cucumber_report_foundation.html "Foundation Theme Reports"
 [5]: http://htmlpreview.github.io/?https://github.com/gkushang/cucumber-html-reporter/blob/develop/samples/html_reports/cucumber_report_simple.html "Simple Theme Reports"
-[6]: https://www.npmjs.com/package/cucumber-html-reporter
+
+[cucumber-html-reporter]: https://www.npmjs.com/package/cucumber-html-reporter
+
+[changelog]: https://github.com/gkushang/cucumber-parallel/blob/develop/CHANGELOG.md
+
+[travis-shield]: https://travis-ci.org/gkushang/cucumber-parallel.svg?branch=develop
+[travis-link]: https://travis-ci.org/gkushang/cucumber-parallel
+
+[npm-shield]: https://img.shields.io/npm/v/cucumber-parallel.svg
+[npm-link]: https://www.npmjs.com/package/cucumber-parallel
+
+[depedency-shield]: https://david-dm.org/gkushang/cucumber-parallel.svg
+[depedency-link]: https://david-dm.org/gkushang/cucumber-parallel
+
+[license-shield]: https://img.shields.io/github/license/mashape/apistatus.svg
+[license-link]: https://github.com/gkushang/cucumber-parallel/
+
+
+
 
 
 

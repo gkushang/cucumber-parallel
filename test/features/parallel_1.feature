@@ -5,13 +5,13 @@ Feature: Cucumber Parallel Set One
   Wants to run Cucumber Features in Parallel using cucumber-parallel module
 
   @happy
-  Scenario: Fred runs features in parallel
+  Scenario: (set-one) Fred runs features in parallel
     Given Fred has multiple features written in cucumber
     When he runs the features in parallel with "--parallel features" using cucumber-parallel module
     Then all the features should run in parallel
 
   @dataTable
-  Scenario: Fred runs features in parallel with data-tables
+  Scenario: (set-one) Fred runs features in parallel with data-tables
     Given Fred has a step with below data table
       | id | name   |
       | 1  | data-A |
@@ -20,7 +20,7 @@ Feature: Cucumber Parallel Set One
     Then all the features should run in parallel
 
   @scenarioOutline
-  Scenario Outline: Fred runs features in parallel with scenario outline
+  Scenario Outline: (set-one) Fred runs features in parallel with scenario outline <id>
     Given Fred has scenario outline with the "<id>"
     When he runs the features in parallel with "--parallel features" using cucumber-parallel module
     Then all the features should run in parallel

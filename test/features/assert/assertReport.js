@@ -1,2 +1,2 @@
 'use strict';
-setTimeout(require('././report').assert, 5000);
+setTimeout(require('./report').assert, 1000);
