@@ -45,17 +45,6 @@ $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /pat
 ```
 
 
-
-## Format
-Because it runs features/scenarios in parallel, it only supports JSON format. You can save the JSON output to file by passing the cucumber-format as,
-
-
-```bash
--f json:path/to/file.json
-```
-
-
-
 ## Run
 
 Supports all the arguments as [cucumber-js][1], except `--format` as explained above
@@ -64,7 +53,7 @@ Supports all the arguments as [cucumber-js][1], except `--format` as explained a
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/features -r /path/to/step-defs -f json:path/to/file.json --tags=@myTag 
 ```
 
-## Re-run failed scenarios in parallel
+#### Re-run failed scenarios in parallel
 
 ```bash
 
@@ -81,6 +70,17 @@ E.g.
 $ node_modules/cucumber-parallel/bin/cucumber-parallel /path/to/login.feature:10:20:25 path/to/signup.feature:18 -r /path/to/step-defs -f json:path/to/file.json --tags=@myTag
 
 ```
+
+
+#### Format
+Because it runs features/scenarios in parallel, it only supports JSON format. You can save the JSON output to file by passing the cucumber-format as,
+
+
+```bash
+-f json:path/to/file.json
+```
+
+
 
 Above example will run login & signup features in parallel; two processes in parallel since two features are passed. Total 4 scenarios will run. You can run all 4 in parallel by passing as below,
 
