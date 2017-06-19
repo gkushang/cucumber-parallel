@@ -1,5 +1,8 @@
 {
   "Scenarios": {
     "totalScenarios": 8
+  },
+  "ScenariosPerFeature": {
+    "totalScenarios": 4
   }
 }
