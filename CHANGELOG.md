@@ -1,7 +1,7 @@
 
 # CHANGELOG
 
-### 2.0.2 (2017-06-27)
+### 2.0.3 (2017-06-27)
 
 * Fixed timeout issue to consolidate the results of all scenarios those ran in parallel [PR#17](https://github.com/gkushang/cucumber-parallel/pull/17). 
  
