@@ -3,7 +3,10 @@
 
 ### 2.0.2 (2017-06-27)
 
-##### Bug fix
+* Fixed timeout issue to consolidate the results of all scenarios those ran in parallel [PR#17](https://github.com/gkushang/cucumber-parallel/pull/17). 
+ 
+ 
+### 2.0.2 (2017-06-27)
 
 * Fixed issue where scenarios are run more than once [PR#16](https://github.com/gkushang/cucumber-parallel/pull/16). 
  
