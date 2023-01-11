@@ -27,7 +27,7 @@
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "cucumber": "^2.3.1",
-    "debug": "^2.2.0",
+    "debug": "^3.1.0",
     "events": "^1.1.1",
     "fs-finder": "^1.8.1",
     "gherkin": "^4.1.3",
